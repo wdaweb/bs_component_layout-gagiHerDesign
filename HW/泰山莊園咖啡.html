@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. link bootstrap.css -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>佳琦的莊園咖啡</title>
+    <style>
+      body {
+        /* overflow-x: hidden; */
+      }
+
+      .nav {
+        --bs-nav-link-color: var(--bs-white);
+      }
+
+      .card {
+        margin: 1rem;
+      }
+
+      .bg-gray {
+        background: rgb(210, 210, 210);
+      }
+    </style>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#gagi" data-bs-offset="60">
+    <nav id="gagi" class="navbar navbar-dark navbar-expand-sm px-3 fixed-top"
+      style=" background-color:rgba(0, 0, 0, 0.5);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">莊園咖啡</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#gagiga">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="gagiga" class="offcanvas offcanvas-start bg-dark" data-bs-backdrop="true" data-bs-scroll="true">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white">MENU</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#gagi_spy_01">菜單餐點</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gagi_spy_02">周邊景點</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="#gagi_spy_03">莊園位置</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gagi_spy_04">聯絡我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gagi_spy_05">咖啡故事</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 內容區 -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/1800/800/?random=19" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1800/800/?random=1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+
+          <img src="https://picsum.photos/1800/800/?random=10" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div style="margin-top:60px;">
+      <div id="gagi_spy_01" class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200/?random=10" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200/?random=8" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200/?random=6" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="gagi_spy_02" class="row g-0">
+        <div class="col-md-6">
+          <img class="w-100" src="https://picsum.photos/800/600/?random=10">
+        </div>
+        <div class="col-md-6 bg-gray d-flex flex-column text-center ">
+          <div class="w-50 m-auto">
+            <h1>123</h1>
+            <p>
+              他對高雄製品作用插入，安徽傢俱全國明年有點遠團體，求職一方面小組，冠軍發展一點懷疑和我西部讓人反覆第一章不限或者，發生主要，眼前之下廣泛兒童例如團隊不明白一段時間，日本對你的確我會接着還能保持兒童認定才能，我是湖北房產跟我一批青草湖小遊戲動物時間，一面鍵。
+            </p>
+            <button type="button" class="btn btn-success">Success</button>
+          </div>
+        </div>
+      </div>
+      <!-- 2. -->
+
+      <div class="row g-0">
+        <div class="col-md-6 order-md-1">
+          <img class="w-100" src="https://picsum.photos/800/600/?random=10">
+        </div>
+
+        <div class="col-md-6 bg-gray d-flex flex-column text-center order-md-0">
+          <div class="w-50 m-auto ">
+            <h1>123</h1>
+            <p>
+              他對高雄製品作用插入，安徽傢俱全國明年有點遠團體，求職一方面小組，冠軍發展一點懷疑和我西部讓人反覆第一章不限或者，發生主要，眼前之下廣泛兒童例如團隊不明白一段時間，日本對你的確我會接着還能保持兒童認定才能，我是湖北房產跟我一批青草湖小遊戲動物時間，一面鍵。
+            </p>
+            <button type="button" class="btn btn-success">Success</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="gagi_spy_03" class="ratio ratio-16x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28915.695279362713!2d121.35770561170335!3d25.052328766533385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a738c188bb39%3A0x7b1eed0917bcd3fb!2z5a626Iqs6LGG6Iqx44O754Gr6Y2L!5e0!3m2!1szh-TW!2stw!4v1670461008722!5m2!1szh-TW!2stw"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div id="gagi_spy_04" class="bg-gray">
+        <div class="container">
+          <div class="row py-3">
+            <div class="col-12 text-center">
+              <h1>聯絡我們</h1>
+              <h3>咖啡莊園，傳承我們的熱情</h3>
+              <h6>如有任何意見，歡迎洽詢客服</h6>
+            </div>
+            <!-- 姓名 -->
+
+            <div class="col-md-6">
+
+              <label for="exampleInputPassword1" class="form-label">姓名</label>
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with radio button">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="radio" name="miss">先生
+                  <input class="form-check-input mt-0" type="radio" name="miss">小姐
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+            <!-- 電話 -->
+            <div class="col-md-6">
+              <label for="exampleInputPassword1" class="form-label">電話</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <!-- 郵件 -->
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <!-- placeholder="name@example.com" 可以有預設的文字在框框裡面 -->
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+              </div>
+            </div>
+            <!-- 餐飲建議 -->
+            <div class="col-md-6">
+              <p> 餐飲選擇</p>
+              <select class="form-select" aria-label="Default select example">
+
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <!-- 意見 -->
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">意見</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="button" class="btn btn-success">Success</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="gagi_spy_05" class="bg-black" style="color: white;">
+        <div class="container">
+          <div class="row py-3">
+
+            <div class="col-md-3 col-6">
+              <img class="rounded-circle    " src="https://picsum.photos/200/200/?random=10">
+            </div>
+
+            <div class="col-md-3 col-6 d-flex flex-column">
+              <h4>Address</h4>
+              <p>123 street name</p>
+              <p>456 city</p>
+            </div>
+            <div class="col-md-3 col-6 d-flex flex-column">
+              <h4>Address</h4>
+              <p>123 street name</p>
+              <p>456 city</p>
+            </div>
+            <div class="col-md-3 col-6 d-flex flex-column">
+              <h4>Address</h4>
+              <p>123 street name</p>
+              <p>456 city</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 2. link bootstrap.bundle.js -->
+    <!-- <script src="./js/bootstrap.bundle.js"></script> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
